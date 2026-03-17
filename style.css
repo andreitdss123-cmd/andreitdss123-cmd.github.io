@@ -1,0 +1,84 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to top, #1e293b, #11275a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    margin: 0;
+}
+
+.container {
+    background: #113f88;
+    padding: 25px;
+    border-radius: 30px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background: #3b82f6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+button:hover {
+    background: #2563eb;
+}
+
+button i {
+    font-size: 18px;
+    color: white; /* asigură vizibilitatea iconițelor */
+}
+
+.weather-box img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.weather-box h2 {
+    font-size: 36px;
+    margin: 5px 0;
+}
+
+.weather-box p {
+    margin: 3px 0;
+    font-size: 18px;
+}
+
+.not-found {
+    display: none;
+}
+
+.not-found img {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
